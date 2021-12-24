@@ -4,7 +4,7 @@ body {
 }
 
 .parallax {
-  background-image: url("assets/images/bg.jpeg");
+  background-image: url("images/bg.jpeg");
   height: max-content;
   background-attachment: fixed;
   background-position: center;
