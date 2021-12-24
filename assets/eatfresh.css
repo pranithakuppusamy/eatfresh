@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: system-ui;
+}
+
+.parallax {
+  background-image: url("./shoppingImages/bg.jpeg");
+  height: max-content;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page-title{
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: 100px;
+    font-family: fantasy;
+    letter-spacing: 20px;
+    
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+.menu{
+  background: green;
+  text-align: center;
+  }
+  .menu-ul{
+    margin: 0;
+    display: inline;
+  }
+  .menu-ul li{
+    font-size: 17px;
+    list-style: none;
+    display: inline-block;
+    padding: 25px 25px 26px 25px;
+  }
+
+  .a-menu{
+    text-decoration: none;
+    color: white;
+
+  }
+  .menu-ul li:hover{
+    background: #44ec41;
+    transform: scale(1.1);
+  }
+  .search-box{
+    border: 1px solid white;
+    border-radius: 50px;
+    background: white;
+    width: max-content;
+    display: inline-block;
+    margin: 8px;
+  }
+  .search-box:hover{
+    box-shadow:0 0 10px 2px #31e92e;
+    border: 1px solid #31e92e;
+  }
+  .search-input{
+    width: 250px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    background: transparent;
+    margin: 1px 0 0 10px;
+
+  }
+  i{
+    font-size: 10px;
+    margin: 0 10px 0 0;
+  }
+button{
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.container{
+  margin: 50px 50px 50px 5%;
+  width: 90%;
+  text-align: center;
+}
+.categories{
+  width: max-content;
+  margin:25px;
+  border: 1px solid #184d47;
+  border-radius: 0 0 50px 50px;
+  display: inline-block;
+}
+.categories:hover{
+  box-shadow: 0 0 10px 3px #184d47;
+}
+.item-image{
+  height: 200px;
+  width: 200px;
+  border-radius: 0 0 50px 50px;
+  padding: 10px;
+}
+.image-title{
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+}

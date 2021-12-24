@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="Author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="./eatfresh.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+<script>
+function stickyMenu (){
+    var sticky=document.getElementById('sticky');
+    if(window.pageYOffset >220){
+        sticky.classList.add('sticky');
+    }
+    else{
+        sticky.classList.remove('sticky');
+    }
+}
+window.onscroll = function(){
+    stickyMenu();
+}
+</script>
+</head>
+
+<body>
+    <div class="parallax">
+        <div class="page-title">Eat Fresh</div>
+    </div>
+    <div class="menu" id="sticky">
+        <ul class="menu-ul">
+            <a href="#" class="a-menu">
+                <li>Home</li>
+            </a>
+            <a href="#vegetables" class="a-menu">
+                <li>Vegetables</li>
+            </a>
+            <a href="#Fruits" class="a-menu">
+                <li>Fruits</li>
+            </a>
+            <a href="#Meat&Seafood" class="a-menu">
+                <li>Meat</li>
+            </a>
+            <a href="#Deals" class="a-menu">
+                <li>Deals</li>
+            </a>
+         
+            <a href="#" class="a-menu">
+                <li>Cart</li>
+            </a>
+        </ul>
+        <div class="search-box">
+            <form>
+                <input type="text" placeholder="search..." name="search" class="search-input" />
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+<!--home page begins-->
+    <div class="container">
+        <a href="#vegetables">
+            <div class="categories">
+                <img src="shoppingImages\vege.jpeg" class="item-image"/>
+                <div class="image-title">Vegetables</div>
+            </div>
+        </a>
+        <a href="#Fruits">
+            <div class="categories">
+                <img src="shoppingImages\fruits.jpeg" class="item-image"/>
+                <div class="image-title">Fruits</div>
+            </div>
+        </a>
+        <a href="#Meat&Seafoood">
+            <div class="categories">
+                <img src="shoppingImages/meat.jpeg" class="item-image"/>
+                <div class="image-title">Meat&Seafood</div>
+            </div>
+        </a>
+        <a href="#Deals">
+            <div class="categories">
+                <img src="shoppingImages\background.jpeg" class="item-image"/>
+                <div class="image-title">Deals</div>
+            </div>
+        </a>
+    </div>
+<!--home page ends-->
+</body>
+
+</html>
